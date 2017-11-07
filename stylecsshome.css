@@ -1,0 +1,41 @@
+#bgvid{position:fixed;right:0;bottom:0;
+min-width:100%;min-height:100%;
+width:auto;height:auto; z-index:-999;
+overflow:hidden;
+background:url(../images/background_teasing.jpg) no-repeat;
+background-size:cover;}
+video{display:block;}
+  .masthead-nav {
+    float: right;
+  }
+}
+
+
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 0 20px;
+}
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: fixed;
+    top: 0;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+
+}
